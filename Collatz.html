@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module Collatz</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>Collatz</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/mnt/c/Users/whdwh/Desktop/coding/swe/cs373-collatz/Collatz.py">/mnt/c/Users/whdwh/Desktop/coding/swe/cs373-collatz/Collatz.py</a></font></td></tr></table>
+    <p><tt>Collatz.py&nbsp;by&nbsp;Jiwon&nbsp;Lee<br>
+EID&nbsp;:&nbsp;jl74566<br>
+&nbsp;<br>
+declare&nbsp;the&nbsp;global&nbsp;array,&nbsp;memory.<br>
+memory&nbsp;is&nbsp;an&nbsp;array&nbsp;with&nbsp;3,000,000&nbsp;elements.<br>
+all&nbsp;elements&nbsp;are&nbsp;initialized&nbsp;with&nbsp;zero&nbsp;at&nbsp;first.</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-collatz_eval"><strong>collatz_eval</strong></a>(i, j)</dt><dd><tt>i&nbsp;the&nbsp;beginning&nbsp;of&nbsp;the&nbsp;range,&nbsp;inclusive<br>
+j&nbsp;the&nbsp;end&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of&nbsp;the&nbsp;range,&nbsp;inclusive<br>
+if&nbsp;i&nbsp;is&nbsp;bigger&nbsp;than&nbsp;j,&nbsp;swap&nbsp;them&nbsp;to&nbsp;make&nbsp;the&nbsp;for&nbsp;loop&nbsp;run&nbsp;normally.<br>
+&nbsp;<br>
+max_val&nbsp;is&nbsp;initialized&nbsp;to&nbsp;zero.&nbsp;max_val&nbsp;is&nbsp;the&nbsp;max&nbsp;cycle&nbsp;length&nbsp;in&nbsp;the&nbsp;range<br>
+using&nbsp;the&nbsp;global&nbsp;array&nbsp;'memory'.<br>
+&nbsp;<br>
+iterator&nbsp;is&nbsp;the&nbsp;value&nbsp;being&nbsp;checked.<br>
+if&nbsp;iterator&nbsp;has&nbsp;been&nbsp;calculated&nbsp;before,&nbsp;the&nbsp;element&nbsp;in&nbsp;the&nbsp;memory&nbsp;array&nbsp;with&nbsp;the&nbsp;index&nbsp;of&nbsp;iterator&nbsp;won't&nbsp;be&nbsp;zero.<br>
+if&nbsp;iterator&nbsp;has&nbsp;not&nbsp;been&nbsp;calculated&nbsp;before,&nbsp;keep&nbsp;computing.<br>
+after&nbsp;computing,&nbsp;check&nbsp;the&nbsp;memory&nbsp;array&nbsp;if&nbsp;the&nbsp;computed&nbsp;value&nbsp;has&nbsp;been&nbsp;calculated&nbsp;for&nbsp;the&nbsp;cycle&nbsp;length&nbsp;before.<br>
+&nbsp;<br>
+compare&nbsp;the&nbsp;current&nbsp;maximum&nbsp;value&nbsp;with&nbsp;cycle&nbsp;length&nbsp;of&nbsp;the&nbsp;iterator.<br>
+&nbsp;<br>
+return&nbsp;the&nbsp;current&nbsp;maximum&nbsp;value&nbsp;after&nbsp;computing&nbsp;all&nbsp;the&nbsp;values&nbsp;in&nbsp;the&nbsp;range&nbsp;through&nbsp;for&nbsp;loop.</tt></dd></dl>
+ <dl><dt><a name="-collatz_print"><strong>collatz_print</strong></a>(w, i, j, v)</dt><dd><tt>print&nbsp;three&nbsp;ints<br>
+w&nbsp;a&nbsp;writer<br>
+i&nbsp;the&nbsp;beginning&nbsp;of&nbsp;the&nbsp;range,&nbsp;inclusive<br>
+j&nbsp;the&nbsp;end&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of&nbsp;the&nbsp;range,&nbsp;inclusive<br>
+v&nbsp;the&nbsp;max&nbsp;cycle&nbsp;length</tt></dd></dl>
+ <dl><dt><a name="-collatz_read"><strong>collatz_read</strong></a>(s)</dt><dd><tt>read&nbsp;two&nbsp;ints<br>
+s&nbsp;a&nbsp;string<br>
+return&nbsp;a&nbsp;list&nbsp;of&nbsp;two&nbsp;ints,&nbsp;representing&nbsp;the&nbsp;beginning&nbsp;and&nbsp;end&nbsp;of&nbsp;a&nbsp;range,&nbsp;[i,&nbsp;j]</tt></dd></dl>
+ <dl><dt><a name="-collatz_solve"><strong>collatz_solve</strong></a>(r, w)</dt><dd><tt>r&nbsp;a&nbsp;reader<br>
+w&nbsp;a&nbsp;writer</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>memory</strong> = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ...]</td></tr></table>
+</body></html>

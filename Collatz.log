@@ -1,0 +1,119 @@
+commit 0327bda625426f3908228c229d6ce0ebbed66289
+Author: jiwonny <whdwhd0115@likelion.org>
+Date:   Tue Sep 17 14:35:11 2019 -0500
+
+    uncomment makefile
+
+commit e474e9c2acb5f8dcab182e08cc07d782bd070024
+Author: jiwonny <whdwhd0115@likelion.org>
+Date:   Tue Sep 17 11:15:00 2019 -0500
+
+    make format command
+
+commit 400c3b4b1e6a26be187f5ec7f754a66fd1e98fa8
+Author: jiwonny <whdwhd0115@likelion.org>
+Date:   Tue Sep 17 11:11:53 2019 -0500
+
+    Collatz.py complete ver
+
+commit 49add45d460abb54e3831c995ad3ce60c756357e
+Author: jiwonny <whdwhd0115@likelion.org>
+Date:   Tue Sep 17 11:04:18 2019 -0500
+
+    make memory array global
+
+commit 9c7e5bb5838acea9545aea727f79d7df312c48c2
+Author: jiwonny <whdwhd0115@likelion.org>
+Date:   Tue Sep 17 02:28:37 2019 -0500
+
+    dealing with zero input
+
+commit 1edfc6bb1ebf798ae6d7b0d14ea97c9941bec396
+Author: jiwonny <whdwhd0115@likelion.org>
+Date:   Tue Sep 17 02:13:51 2019 -0500
+
+    fix unit test to solve the problem with coverage run
+
+commit 3e71a9d3472c9eb815dc2741539a53237f40c784
+Author: jiwonny <whdwhd0115@likelion.org>
+Date:   Tue Sep 17 01:04:32 2019 -0500
+
+    swap i and j when i is bigger than j
+
+commit 5b73d012cd27bae996b96ac2572240cfda44452a
+Author: jiwonny <whdwhd0115@likelion.org>
+Date:   Tue Sep 17 01:00:37 2019 -0500
+
+    fix runtime error when n is out of index
+
+commit 5689af9cda84c57a5d8f823f8b5686152f4343ff
+Author: jiwonny <whdwhd0115@likelion.org>
+Date:   Mon Sep 16 23:50:56 2019 -0500
+
+    using memory being calculated before
+
+commit 339a9ff7b631a42efe3a4a72f02f16fda7907291
+Author: jiwonny <whdwhd0115@likelion.org>
+Date:   Mon Sep 16 23:15:56 2019 -0500
+
+    Collatz_eval using array and max method
+
+commit 214ff2d26fd32616bce3048d7701d291acd6324b
+Author: jiwonny <whdwhd0115@gmail.com>
+Date:   Mon Sep 16 22:50:10 2019 -0500
+
+    basic code of Collatz_eval using iterator
+
+commit 8613b8aca67fb0936410afd1bf20c69717e6c114
+Author: Glenn Downing <downing@cs.utexas.edu>
+Date:   Tue Sep 10 10:35:18 2019 -0500
+
+    another commit
+
+commit da2535bbfb4b590f3807484b45b6e4fc89ce696f
+Author: Glenn Downing <downing@cs.utexas.edu>
+Date:   Sat Sep 7 20:31:44 2019 -0500
+
+    another commit
+
+commit 229079870e8a4b1a6993047c90853e82b41606a3
+Author: Glenn Downing <downing@cs.utexas.edu>
+Date:   Tue Sep 3 18:21:57 2019 -0500
+
+    another commit
+
+commit 9789838e8f5b355ddf5ce7d12d6c6b389bd2a0ef
+Author: Glenn Downing <downing@cs.utexas.edu>
+Date:   Tue Sep 3 18:21:14 2019 -0500
+
+    another commit
+
+commit e86c7af499ad673bb7eddb917a3ae80175de829e
+Author: Glenn Downing <downing@cs.utexas.edu>
+Date:   Tue Sep 3 18:20:40 2019 -0500
+
+    another commit
+
+commit 078a03a634bc3a59f3a27dbc5aea8b030d87a7fa
+Author: Glenn Downing <downing@cs.utexas.edu>
+Date:   Tue Sep 3 18:08:59 2019 -0500
+
+    another commit
+
+commit e3c12f820ba7b3d7e3cb9f59d87cd87f4b486ced
+Author: Glenn Downing <downing@cs.utexas.edu>
+Date:   Tue Sep 3 18:07:56 2019 -0500
+
+    another commit
+
+commit d9c3818e9599b6e5f2034b9f5212c8cd6ae152c3
+Author: Glenn Downing <downing@cs.utexas.edu>
+Date:   Tue Jun 4 20:42:04 2019 -0500
+
+    another commit
+
+commit af9473e3fd29f79a2022b2c505dcda484793895f
+Author: Glenn Downing <downing@cs.utexas.edu>
+Date:   Tue Jun 4 20:35:29 2019 -0500
+
+    first commit

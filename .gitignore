@@ -1,0 +1,12 @@
+__pycache__
+_Collatz.bbprojectd
+.coverage
+.DS_Store
+.mypy_cache
+.pylintrc
+*.pyc
+*.tmp
+collatz-tests
+Icon?
+latex
+CollatzHackerrank.py
