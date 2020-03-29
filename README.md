@@ -35,6 +35,9 @@ s a string
 return a list of two ints, representing the beginning and end of a range, [i, j]
 
 <br>
+
 ### collatz_solve(r, w)
 r a reader
 w a writer
+
+<br><br>
